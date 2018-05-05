@@ -1,5 +1,7 @@
 package com.shenxuesong.tinkerdemo;
 
+import android.content.Context;
+
 /**
  * 加载Bug的类.
  *
@@ -13,8 +15,8 @@ public class LoadBugClass {
      *
      * @return 返回bug字符串
      */
-    public static String getBugString() {
+    public static String getBugString(Context context) {
         BugClass bugClass = new BugClass();
-        return bugClass.bug();
+        return bugClass.bug(context);
     }
 }

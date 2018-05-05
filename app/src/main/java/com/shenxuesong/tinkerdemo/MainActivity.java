@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 应用patch包之后，提示"The bug has fixed"
      */
     public void testToast() {
-        Toast.makeText(this, LoadBugClass.getBugString(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, LoadBugClass.getBugString(this), Toast.LENGTH_SHORT).show();
     }
 
     @Override
