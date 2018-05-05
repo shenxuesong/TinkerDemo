@@ -37,7 +37,7 @@ tinkerSupport {
 
     tinkerId = "2.0.1-base"
     //多渠道打包
-    // buildAllFlavorsDir = "${bakPath}/${baseApkDir}"
+     buildAllFlavorsDir = "${bakPath}/${baseApkDir}"
     // 是否开启加固模式，默认为false
     // isProtectedApp = true
 
